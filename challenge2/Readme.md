@@ -12,7 +12,7 @@ Solution:
 
 https://user-images.githubusercontent.com/68887254/138212743-fdfb28b7-a963-4e34-8aef-d4c60ee15372.png
 
-#Linux :Use the following cooand in script for Linux workloads
+#Linux :Use the following comand in script for Linux workloads
 curl -H Metadata:true --noproxy "*" "http://169.254.169.254/metadata/instance?api-version=2020-09-01" | jq
  
 
