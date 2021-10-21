@@ -6,11 +6,14 @@ Azure Documentation (https://docs.microsoft.com/en-us/azure/?product=featured) Â
 Google Documentation (https://cloud.google.com/docs)
 
 Solution: 
-1. Login to the VM created on Azure environment
+1. Login to the Pssession by logging into your azure account
 2. Create the below script on admin powershell ISE 
 3. Run it on the desired VM you want the data from Metadata.ps1
 
 https://user-images.githubusercontent.com/68887254/138212743-fdfb28b7-a963-4e34-8aef-d4c60ee15372.png
+
+#Linux :Use the following cooand in script for Linux workloads
+curl -H Metadata:true --noproxy "*" "http://169.254.169.254/metadata/instance?api-version=2020-09-01" | jq
  
 
 
