@@ -9,6 +9,8 @@ Solution:
 1. Login to the VM created on Azure environment
 2. Create the below script on admin powershell ISE 
 3. Run it on the desired VM you want the data from Metadata.ps1
+
+https://user-images.githubusercontent.com/68887254/138212743-fdfb28b7-a963-4e34-8aef-d4c60ee15372.png
  
 
 
