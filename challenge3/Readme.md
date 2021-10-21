@@ -22,5 +22,7 @@ Solution:
 2. Run the python program attached and compile the same to get the desired output
 
 ========================================================
+
 Output:
+
 https://user-images.githubusercontent.com/68887254/138213290-0f9e026d-3453-4291-9e6f-e1f661e7a034.png
