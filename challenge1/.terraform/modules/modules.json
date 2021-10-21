@@ -1,0 +1,1 @@
+{"Modules":[{"Key":"database","Source":"./modules/database","Dir":""},{"Key":"networksetup","Source":"./modules/networksetup","Dir":""},{"Key":"resourcegroup","Source":"./modules/resourcegroup","Dir":""},{"Key":"securitygroup","Source":"./modules/securitygroup","Dir":""},{"Key":"","Source":"","Dir":"."},{"Key":"compute","Source":"./modules/compute","Dir":""}]}
