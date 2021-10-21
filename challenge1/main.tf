@@ -23,9 +23,9 @@ module "networksecuritygroup" {
   source         = "./modules/networksecuritygroup"
   location       = module.resourcegroup.location_id
   resource_group = module.resourcegroup.resource_group_name
-  web_subnet_id  = module.networking.websubnet_id
-  app_subnet_id  = module.networking.appsubnet_id
-  db_subnet_id   = module.networking.dbsubnet_id
+  websubnetid  = module.networking.websubnet_id
+  appsubnetid  = module.networking.appsubnet_id
+  dbsubnetid   = module.networking.dbsubnet_id
 }
 
 module "workload" {
