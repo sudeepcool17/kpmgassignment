@@ -17,7 +17,8 @@ Once this has been completed please send us the output so we can get the ball ro
 
 Solution:
 =========
-1.open pycharm or any other ISE and create a new project
+1. Open pycharm or any other ISE and create a new project
+
 2. Run the python program attached and compile the same to get the desired output
 
 ========================================================
