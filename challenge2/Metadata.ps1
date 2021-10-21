@@ -1,4 +1,5 @@
-﻿Enter-PSSession -ComputerName DemoVM.cloudapp.net -Credential login
+#login to the session
+Enter-PSSession -ComputerName DemoVM.cloudapp.net -Credential login
 #Invoke the Rest method to get information about metadata
 $resp=Invoke-RestMethod -Headers @{"Metadata"="true"} -Method GET -Proxy $Null -Uri "http://169.254.169.254/metadata/instance?api-version=2021-01-01"
 
