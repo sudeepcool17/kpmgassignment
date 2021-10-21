@@ -18,26 +18,8 @@ Once this has been completed please send us the output so we can get the ball ro
 Solution:
 =========
 1.open pycharm or any other ISE and create a new project
-2. Write below command and compile the same to get the desired output
+2. Run the python program attached and compile the same to get the desired output
 
-def parse_object(object_val, key):
-    # Strip the key of start and railing
-    # Split the key based on
-    keys = key.strip('/').split('/')
-    # print(keys)
-    for key in keys:
-        if key in object_val:
-            object_val = object_val[key]
-        else:
-            print ("Key not found")
-            exit(1)
-    return object_val
-
-object_def = {"a":{"b":{"c": "d"}}}
-print(parse_object(object_def,'a/b/c'))
-
-object_def = {"x":{"y":{"z": "a"}}}
-print(parse_object(object_def,'x/y/z'))
 ========================================================
 Output:
 https://user-images.githubusercontent.com/68887254/138213290-0f9e026d-3453-4291-9e6f-e1f661e7a034.png
