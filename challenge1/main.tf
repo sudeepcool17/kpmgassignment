@@ -28,6 +28,12 @@ module "networksecuritygroup" {
   dbsubnetid   = module.networking.dbsubnet_id
 }
 
+module "loadbalancer" {
+  source         = "./modules/loadbalancer"
+  location       = module.resourcegroup.location_id
+  resource_group = module.resourcegroup.resource_group_name
+}
+
 module "workload" {
   source         = "./modules/workload"
   location = module.resourcegroup.location_id
