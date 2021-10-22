@@ -32,7 +32,7 @@ https://user-images.githubusercontent.com/68887254/138211764-01e1e0cc-a91e-4888-
 
 •	terraform.tfvars          : passed the terraform variables values
 
-4. Added the below mentioned Modules for organizing resources and reusability.
+4. Added the below mentioned Modules for organizing resources and reusability..
 
 •	Resourcegroup  : Container for all resources
 
