@@ -42,8 +42,8 @@ module "workload" {
   appospassword = var.appospassword
 }
 
-module "database" {
-  source = "./modules/database"
+module "backendatabase" {
+  source = "./modules/backendatabase"
   location = module.resourcegroup.location_id
   resource_group = module.resourcegroup.resource_group_name
   Datarepo_database = var.primary_database
